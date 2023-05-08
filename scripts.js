@@ -47,7 +47,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"IwLCVoOSQ0w42uZD","label":"Sosial","bookmarks":[{"id":"vmiuTPz84BuKZHmM","label":"Startpages","url":"https://www.reddit.com/r/startpages/"},{"id":"Mit0MmR2P2UvrlVr","label":"Github","url":"https://github.com/Asuncion09"},{"id":"LPsNiEzZq22g4Xd9","label":"r/reactjs","url":"https://www.reddit.com/r/reactjs/"}]},{"id":"fxFilPO0T1nSNoQs","label":"Uni","bookmarks":[{"id":"Px0FjInb1epFFycp","label":"Sima","url":"https://sima.unicartagena.edu.co/login/index.php"},{"id":"yORLSCkqMuWB9jla","label":"Sma","url":"https://sma.unicartagena.edu.co:8443/Smaix12/"}]},{"id":"mwhmjZWluJxTnbsi","label":"Tools","bookmarks":[{"id":"oAgiScck3TCQtRrY","label":"ChatGPT","url":"https://chat.openai.com/"},{"id":"7k0dCsikAJYWFw9y","label":"Django","url":"https://docs.djangoproject.com/en/4.2/"}]}]
+const bookmarks = [{"id":"IwLCVoOSQ0w42uZD","label":"Social","bookmarks":[{"id":"vmiuTPz84BuKZHmM","label":"Startpages","url":"https://www.reddit.com/r/startpages/"},{"id":"Mit0MmR2P2UvrlVr","label":"Github","url":"https://github.com/Asuncion09"}]},{"id":"fxFilPO0T1nSNoQs","label":"Uni","bookmarks":[{"id":"Px0FjInb1epFFycp","label":"Sima","url":"https://sima.unicartagena.edu.co/login/index.php"},{"id":"yORLSCkqMuWB9jla","label":"Sma","url":"https://sma.unicartagena.edu.co:8443/Smaix12/"}]},{"id":"mwhmjZWluJxTnbsi","label":"Tools","bookmarks":[{"id":"oAgiScck3TCQtRrY","label":"ChatGPT","url":"https://chat.openai.com/"},{"id":"7k0dCsikAJYWFw9y","label":"Django","url":"https://docs.djangoproject.com/en/4.2/"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
